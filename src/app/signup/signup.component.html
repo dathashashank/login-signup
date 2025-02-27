@@ -1,1 +1,36 @@
-<p>signup works!</p>
+        <div class="section_container maincontainer grid">
+            <div class="createleftcontainer">
+                <label class="leftheading"> Welcome Back!</label>   
+                <div class="pavan">
+                </div>
+                <p>To Keep Connected with us please <br> login with your personal info</p>
+                <button class="createloginbtn" (click)="loginnav()">LOG IN</button>
+            </div>
+            <div class="createrightcontainer" >
+                <label class="rightheading">Create Account</label>
+                <div class="socialmediaicons">
+                <img src="assets/images/facebook.png" alt="image" width="40px" height="40px">
+                <img src="assets/images/google.png" alt="#" width="40px" height="40px">
+                <img src="assets/images/whatsup.png" alt="#" width="40px" height="40px">
+                </div>
+                <p style="color: #AAAAAA;"> or use your email for registartions.</p>
+                <div class="deatilsbox">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text"><img src="assets/images/person.svg"></span>
+                        <input type="text" class="form-control" placeholder="eg:shashankdatha" id="username" aria-label="Username" aria-describedby="addon-wrapping">
+                        <span id="name-error" class="error-message"></span>
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text"><img src="assets/images/mail.svg"></span>
+                        <input type="email" class="form-control" placeholder="eg:example@gmail.com" id="email" aria-label="Email" aria-describedby="addon-wrapping">
+                        <span id="email-error" class="error-message"></span>
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" ><img src="assets/images/lock.svg"></span>
+                        <input type="number" class="form-control" placeholder="eg:12345678" id="password" aria-label="Password" aria-describedby="addon-wrapping">
+                        <span id="password-error" class="error-message"></span>
+                    </div>
+                </div>
+                <button class="createsignupbtn" onclick= "signFormvalidate()">SIGN UP</button>
+            </div>
+        </div>

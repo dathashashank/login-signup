@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.maincontainer {
+    margin: 0 ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+}
+
+
+.grid {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.rightheading{
+    font-size: 3rem;
+    color: #3BB397;
+    font-weight:700;
+}
+
+.leftheading{
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+.socialmediaicons{
+    width: 26%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.deatilsbox{
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: auto;
+    
+}
+
+.input-group {
+    padding: 2%;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+    text-align: left; 
+}
+
+/* login page styles  */
+.loginleftcontainer{
+    background-color: #ffffff;
+    align-items: center;
+    flex: 2;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.loginrightcontainer {
+    background-color: #3BB397; 
+    color: #ffffff;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.loginsignupbtn {
+    margin-top: 2rem;
+    padding: 10px 60px;
+    background-color: #3BB397;
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    cursor: pointer;
+}

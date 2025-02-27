@@ -1,1 +1,30 @@
-<p>login works!</p>
+        <div class="section_container maincontainer grid">
+            <div class="loginleftcontainer" >
+                <label class="rightheading">Login to Shashank</label>
+                <div class="socialmediaicons">
+                <img src="/assets/images/facebook.png" width="40px" height="40px">
+                <img src="/assets/images/google.png" width="40px" height="40px">
+                <img src="/assets/images/whatsup.png" width="40px" height="40px">
+                </div>
+                <p style="color: #AAAAAA;"> or use your registered email Account.</p>
+                <div class="deatilsbox" style="margin-top: 4%; margin-bottom: 4%;">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text"><img src="/assets/images/mail.svg"></span>
+                        <input type="email" class="form-control" placeholder="eg:example@gmail.com" id="loginemail" aria-label="Email" aria-describedby="addon-wrapping">
+                        <span id="lemail-error" class="error-message"></span>
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" ><img src="assets/images/lock.svg"></span>
+                        <input type="number" class="form-control" placeholder="eg:12345678" id="loginpassword" aria-label="Password" aria-describedby="addon-wrapping">
+                        <span id="lpassword-error" class="error-message"></span>
+                    </div>
+                    <p>Forget your password?</p>
+                </div>
+                <button class="loginsignupbtn" onclick="loginFormvalidtate()">LOG IN</button>
+            </div>
+            <div class="loginrightcontainer">
+                <label class="leftheading"> SignUp</label>   
+                <p>To Keep Connected with us please <br> login with your personal info</p>
+                <button class="loginsignupbtn" (click)="signupnav()">SIGN UP</button>
+            </div>
+        </div>
